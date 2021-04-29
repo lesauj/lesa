@@ -1,0 +1,262 @@
+html {
+	--brand-green: #076448;
+--dark-green: #099268;
+--medium-green: #20c997;
+--text-color: #212529;
+--gray: #868e96;
+--light-gray: #f1f3f5;
+--extra-light-gray: #f8f9fa;
+--white: #fff;
+box-sizing: border-box;
+color: var(--text-color);
+}
+
+@keyframes transition{
+	0% {background-color: rgb(0, 255, 0);}
+	25% {background-color: rgb(255, 255, 255);}
+	50% {background-color: rgb(0, 0, 255);}
+	75% {background-color: rgb(0, 0, 0);}
+	100% {background-image: url("Media/mok.jpg");}
+}
+
+@keyframes texti{
+	0% {color: rgb(255, 255, );}
+	25% {color: black;}
+	50% {color: white;}
+	75% {color: white;}
+	100% {color: white;}
+} 
+
+@keyframes com{
+	from{background-color: var(--white);}
+	to{background-image: url(Media/ramz.jpg);}
+}
+
+.c5{
+	animation-name: com;
+	animation-duration: 2s;
+	animation-delay: 5s;
+	animation-play-state: running;
+	animation-iteration-count: 1;
+}
+
+
+.note{
+	animation-name: texti;
+	animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    animation-play-state: running;
+    animation-direction:normal;
+}
+
+
+.welcome{
+	animation-name: transition;
+	animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    animation-play-state: running;
+    animation-direction:normal;
+}
+
+.home {
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 0px;
+  border: 5px;
+  padding-top: 0px;
+}
+
+li{
+	list-style-type: none;
+	align-content: center;
+	align-items: center;
+}
+
+
+a {
+	text-decoration: none;
+  	color: #000000;
+	font-style: "Times New Roman";
+}
+nav .links{
+  align-content: center;
+  padding: 5px;
+  border: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  margin-left: 0.625em;
+  border-radius: 0.625em;
+   
+}
+
+div .nav_container {
+	background-color: var(--brand-green);
+	padding: 5px;
+	height: 65px;
+}
+
+.links a:hover{
+	color: var(--white);
+	text-decoration: underline;
+}
+
+.home:hover{
+	border: 1px solid #000000;
+	border-radius: 0.5em;
+	box-shadow: 0.15em  0.15em 0.15em 0.15em #100000;
+}
+
+.links a:visted{
+	color: var(--white);
+}
+h1, h2, h3, h4 {
+font-family: Georgia, serif;
+}
+
+body {
+margin: 0;
+font-family: Helvetica, Arial, sans-serif;
+line-height: 1.4;
+background-color: #eeeeff;
+align-content: center;
+align-items: center;
+}
+
+.button{
+	display: inline-block;
+	padding: 0.4em 1em;
+	color: var(--brand-green);
+	border: 2px solid var(--brand-green);
+	border-radius: 0.2em;
+	text-decoration: none;
+	font-size: 1rem;
+	float: right;
+}
+
+.button:hover{
+	background-color: var(--dark-green);
+	color: var(--white);
+}
+
+.welcome{
+
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 50px 0 200px;
+	text-align: right;
+	padding: 35px; 
+	padding-bottom: 100px;
+	background-size: cover;
+	background-blend-mode: multiply;
+    backface-visibility: visible;
+	margin-bottom: 2.5rem;
+}
+
+.other_details{
+	margin: 0 auto;
+	max-width: 1080px;
+	background-color: #eeeeff;
+}
+.container_details{
+	display: flex;
+}
+.container_details > * {
+	flex: 1;
+}
+.others{
+background-color: var(--white);
+border-radius: 0.3em;
+padding: 1.5625em;
+margin-right: 1.625em;
+box-shadow: 0.25em  0.25em 0.25em 0.25em #c0c0c0; 
+}
+
+.box{
+	margin: 0 auto;
+	max-width: 1600px;
+	padding-left: 50px;
+	background-color: #eeeeff;
+}
+
+.apk{
+	display: flex;
+}
+
+.apk > * {
+	flex: 1;
+}
+.chair{
+background-color: var(--white);
+border-radius: 0.3em;
+padding: 1em;
+margin-right: 1.625em; 
+box-shadow: 0.25em  0.25em 0.25em 0.25em #868e96;
+}
+
+.titles{
+	padding: 0px;
+}
+
+.dfc{
+	display: flex;
+}
+
+.dfc > * {
+	flex: 1;
+}
+
+.chair:hover{
+	box-shadow: 0.5em 0.5em 0.5em #000000;
+	background-color: #c0c0c0;
+
+}
+
+.foot {
+margin-top: 3em;
+padding: 1em 0;
+background-color: #c0c0c0;
+color: var(--gray);
+}
+.fotter {
+margin: 0 auto;
+max-width: 1080px;
+text-align: center;
+font-size: 0.8rem;
+}
+
+/* About Page */
+
+#mission{
+background-color: #00BFFF;
+border-radius: 0.3em;
+padding: 1em;
+margin-right: 1.625em; 
+box-shadow: 0.25em  0.25em 0.25em 0.25em #868e96;
+margin-right: 1.625em;
+text-align: justify-all; 	
+}
+
+
+.main-about{
+	display: flex;
+}
+
+.main-about > * {
+	flex: 2;
+}
+#members-container{
+background-color: #32CD32;border-radius: 0.3em;
+padding: 1em;
+margin-right: 1.625em; 
+box-shadow: 0.25em  0.25em 0.25em 0.25em #868e96;
+margin-right: 1.625em; 
+text-align: left;
+text-align: justify;
+}
+
+
+

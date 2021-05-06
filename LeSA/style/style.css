@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 480px), only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5){
+
 html {
 	--brand-green: #076448;
 --dark-green: #099268;
@@ -11,7 +11,7 @@ html {
 box-sizing: border-box;
 color: var(--text-color);
 }
-
+@media only screen and (max-device-width: 480px), only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5){
 @keyframes transition{
 	0% {background-color: rgb(0, 255, 0);}
 	25% {background-color: rgb(255, 255, 255);}
@@ -259,6 +259,7 @@ text-align: left;
 text-align: justify;
 }
 }
+
 
 
 

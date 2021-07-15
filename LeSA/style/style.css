@@ -429,7 +429,7 @@ text-align: justify;
 
 /* mobile views */
 
-@media  screen and (max-width: 800px ){
+@media  screen and (max-width: 1080px ){
 	
 	/* nav bar styles */
 	.nav_container{
